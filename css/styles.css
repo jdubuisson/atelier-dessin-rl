@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(47, 23, 15, 0.5);
+}
+
+.section-heading .section-heading-lower {
+    font-size: 2.5rem;
+}
+
+.btn-xl {
+    font-size: 1.1rem;
+}
+
+.intro-text.se-corner {
+    left: auto;
+    right: -8%;
+    bottom: -10%;
+}
+
+@media (min-width: 992px) {
+    .intro-text.se-corner {
+        width: 40%;
+    }
+
+    .intro {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 992px) {
+    .btn {
+        white-space: normal;
+    }
+}
+
+.cta .cta-inner::before {
+    z-index: -1;
+    border: 0.25rem solid white;
+}
+
+.black {
+    color: #212529;
+}
+
+.last {
+    margin-bottom: 0;
+}
