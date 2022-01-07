@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(47, 23, 15, 0.5);
+    background-color: #5f6ab0;
 }
 
 .section-heading .section-heading-lower {
@@ -43,4 +43,8 @@ body {
 
 .last {
     margin-bottom: 0;
+}
+
+.footer {
+    background-color: rgba(42, 44, 55, 0.9);
 }
